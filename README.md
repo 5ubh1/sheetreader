@@ -1,5 +1,7 @@
 # sheetreader
 
+[![tests](https://github.com/5ubh1/sheetreader/actions/workflows/tests.yml/badge.svg)](https://github.com/5ubh1/sheetreader/actions/workflows/tests.yml)
+
 Read Google Sheets into typed Python rows — with retry, token refresh, and a small CLI.
 
 No third-party dependencies. Pure standard library, so it runs anywhere Python does.
