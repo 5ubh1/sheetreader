@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Never commit credentials
+token.json
+*_token*.json
+client_secret*.json
+.env
+*.pem
+*.key
+
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
