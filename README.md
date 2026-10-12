@@ -28,11 +28,24 @@ This package handles the boring parts once:
 
 ## Install
 
+From GitHub:
+
 ```bash
+pip install "git+https://github.com/5ubh1/sheetreader.git"
+```
+
+Working on the code itself:
+
+```bash
+git clone https://github.com/5ubh1/sheetreader.git
+cd sheetreader
 pip install -e ".[dev]"
 ```
 
 Requires Python 3.10+. The only runtime dependency is the standard library.
+
+> Not on PyPI. The name `sheetreader` is taken there by an unrelated package,
+> so install from GitHub.
 
 ## Authentication
 
